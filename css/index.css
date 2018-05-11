@@ -1,0 +1,120 @@
+/* jumbotron adjustments */
+.jumbotron {
+	background-image: url("../img/jumbotron-bg.png");
+	text-align: center;
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-weight: bold;
+}
+.jumbotron h2 {
+	color: #fff;
+	font-weight: bold;
+}
+.jumbotron h3 {
+	color: #fff;
+	font-weight: bold;
+}
+
+.small-logo {
+	float: left;
+	display: inline;
+	height: 30px;
+}
+/* home page events listing */
+#events-list {
+}
+
+.event-title-row {
+	/*
+	border-radius: 5px;
+	background: #eee;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	*/
+}
+
+.event-title {
+	font-size: 22px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	color: #888;
+}
+
+.event-title:hover {
+	text-decoration: none;
+}
+.delete-event-btn {
+	color: #b44;
+	margin-left: 20px;
+}
+.delete-event-btn:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.event-type {
+}
+.event-days {
+}
+.event-description {
+}
+.event-owner {
+	display: inline-block;
+	padding-top: 5px;
+	font-weight: bold;
+}
+.event-owner:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.first-event-attendee {
+	/* first attendee in the list */
+}
+.event-attendee {
+	margin-left: 5px;
+	padding-left: 4px;
+	border-left: solid 2px #bbb;
+}
+.first-event-attendee:hover, .event-attendee:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.owner-attendee-image {
+	height: 100px;
+	border-radius: 3px;
+	margin-right: 6px;
+	margin-top: 2px;
+}
+.attendee-image {
+	height: 30px;
+	border-radius: 3px;
+	margin-right: 6px;
+	margin-top: 2px;
+}
+
+/* event filtering options - All, Past, Around, etc */
+#all-events-btn:hover,
+#past-events-btn:hover,
+#events-i-own-btn:hover,
+#events-i-am-attending-btn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.events-option-selected {
+	font-weight: bold;
+	font-size: 1.2em;
+	border-bottom: solid 3px #ddd;
+}
+/* for event options - Leave,Message, etc */
+.event-option {
+}
+.option-btn {
+}
+.attending-spaces {
+	font-size: .8em;
+	color: #999;
+	font-weight: bold;
+}

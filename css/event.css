@@ -1,0 +1,13 @@
+/* event page */
+.profile-image {
+	height: 60px;
+	border-radius: 5px;
+}
+.attendee-name {
+	margin-left: 20px;
+}
+#location {
+	margin-left: 40px;
+	font-size: .6em;
+	color: #bbb;
+}

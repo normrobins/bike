@@ -1,0 +1,25 @@
+/* profile page */
+.item-icon {
+	font-size: 30px;
+	margin-right: 5px;
+}
+.profile-image {
+	width: auto;
+	max-width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.bike-image {
+	width:auto;
+	height:120px;
+	margin-right:15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.profile-label {
+	margin-right: 10px;
+	font-weight: bold;
+}
+.profile-text {
+	color: #666;
+}

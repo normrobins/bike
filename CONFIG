@@ -1,0 +1,13 @@
+Uploaded images:
+- files are stored in <some-base-dir>/user_images/<userid>/profile|images/filename.ext
+- <some-base-dir> is defined in php files (uploadImage, register)
+- <some-base-dir> is also defined in bike_global.js. 
+- Both these need to align for things to work!
+- user_images dir is checked into git but permissions may need to be set on it (a+w).
+
+e.g.
+- could be that php stores in /var/www/xx/user_images/....
+- JS could access this via http://someserver/ which has its doc root set to /var/www/xx
+
+Hopefully I'll remember what this means when I read it again!
+

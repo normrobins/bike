@@ -1,0 +1,5 @@
+typeahead-bundle.min.js is a bug-fix version from https://github.com/coopy/typeahead.js/blob/fix-async-render-dist/dist/typeahead.bundle.min.js
+
+typeahead-bundle.min.js0.11.1 is from https://twitter.github.io/typeahead.js/
+
+When the main line is fixed, replace it.

@@ -1,0 +1,38 @@
+/* my_profile page */
+.profile-image {
+	width:auto;
+	max-width:100%;
+	height:200px;
+	border-radius:5px;
+}
+.bike-image {
+	width:auto;
+	max-width:100%;
+	height:150px;
+	margin-right:15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#bike-images {
+	background: #f4f4f4;
+	padding: 20px;
+	border-radius: 5px;
+}
+.img-wrapper {
+	position: relative;
+}
+.img-wrapper .delete-bike-image-btn {
+	position: absolute;
+	left: 10px;
+	top: 50px;
+}
+.img-wrapper #change-profile-image-btn {
+	position: absolute;
+	left: 10px;
+	top: 50px;
+}
+.img-wrapper #delete-profile-image-btn {
+	position: absolute;
+	left: 90px;
+	top: 50px;
+}

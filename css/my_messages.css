@@ -1,0 +1,154 @@
+/* my_messages page */
+
+/* event messages */
+.event-messages-title-row {
+	border-top: solid 3px #e4e4e4;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.event-messages-event-title {
+	font-size: 16px;
+}
+.event-messages-event-date {
+	font-size: .7em;
+	margin-left: 20px;
+}
+.event-messages-mark-all-as-read {
+	margin-left: 20px;
+	font-size: .6em;
+}
+.event-messages-mark-all-as-read:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.event-messages-reply-btn {
+	font-size: .8em;
+	margin-left: 30px;
+}
+.event-messages-reply-btn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.event-messages-message {
+	color: #888;
+	font-size: .9em;
+}
+.event-messages-unread-message {
+}
+.event-messages-message-sender {
+	margin-left: 20px;
+}
+.event-messages-message-timeago {
+	font-size: .7em;
+	/* color: #5bc0de; */
+	margin-left: 5px;
+}
+.event-messages-mark-as-read {
+	font-size: .8em;
+	margin-left: 5px;
+}
+.event-messages-mark-as-read:hover {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+/* join request received */
+.join-request-row {
+	border-bottom: dotted 1px #e4e4e4;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.join-request-name {
+}
+.join-request-timeago {
+	font-size: .7em;
+	margin-left: 5px;
+}
+.join-request-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.accept-join-request,
+.delete-join-request {
+	font-size: .7em;
+	margin-left: 10px
+}
+.accept-join-request:hover,
+.delete-join-request:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.ignore-join-request {
+	font-size: .7em;
+	margin-left: 5px;
+}
+.ignore-join-request:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.event-reply-btn {
+	font-size: .6em;
+	margin-left: 30px;
+}
+.event-reply-btn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+/* Event Invitations */
+.event-invitation-row {
+	border-bottom: dotted 1px #e4e4e4;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.event-invitation-name {
+	font-weight: bold;
+}
+.event-full-message {
+	font-size: .8em;
+	color: #bbb;
+}
+.event-invitation-timeago {
+	font-size: .7em;
+	margin-left: 5px;
+}
+.event-invitation-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.accept-event-invitation,
+.delete-event-invitation,
+.ignore-event-invitation{
+	font-size: .8em;
+	margin-left: 10px
+}
+.accept-event-invitation:hover,
+.delete-event-invitation:hover,
+.ignore-event-invitation:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+/* Join requests I have sent*/
+.join-request-sent-row {
+	border-bottom: dotted 1px #e4e4e4;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.join-request-sent-name {
+}
+.join-request-sent-timeago {
+	font-size: .7em;
+	margin-left: 5px;
+}
+.join-request-sent-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.cancel-join-request-sent {
+	font-size: .7em;
+	margin-left: 10px
+}
+.cancel-join-request-sent:hover {
+	color: red;
+	cursor: pointer;
+	text-decoration: none;
+}

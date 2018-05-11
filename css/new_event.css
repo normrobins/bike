@@ -1,0 +1,63 @@
+/* new event page */
+#select-all-btn {
+}
+#select-all-btn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.friend-attendee {
+	margin-left: 5px;
+}
+.friend-attending {
+	color: #3B8367;
+}
+.friend-not-attending {
+}
+.scrolling-user-list {
+	overflow: scroll;
+	height: 150px;
+	border: solid 1px #e4e4e4;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+/* friends listing */
+/* friends */
+.friend-name {
+	margin-left: 5px;
+}
+.friend-name:hover {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+/* styles for userSearch */
+.search-user-name:hover {
+	text-decoration:none;
+	cursor:pointer;
+}
+.user-invitee-btn:hover {
+	cursor:pointer;
+	color:#888;
+}
+/* styles for userProfileModal */
+.profile-image {
+	width: auto;
+	max-width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.bike-image {
+	width:auto;
+	height:120px;
+	margin-right:15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.profile-label {
+	margin-right: 10px;
+	font-weight: bold;
+}
+.profile-text {
+	color: #666;
+}

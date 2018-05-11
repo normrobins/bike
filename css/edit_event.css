@@ -1,0 +1,116 @@
+/* edit event page */
+#select-all-btn {
+}
+#select-all-btn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.friend-attending {
+	color: #3B8367;
+}
+.friend-attending a:hover {
+	text-decoration: none;
+}
+.friend-invited {
+	color: red;
+}
+.friend-not-invited {
+}
+
+.pending-invitation-name {
+}
+.pending-invitation-timeago {
+	font-size: .7em;
+	margin-left: 5px;
+}
+.pending-invitation-message {
+	margin-left: 30px;
+}
+.scrolling-user-list {
+	overflow: scroll;
+	height: 150px;
+	border: solid 1px #e4e4e4;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.attendee-name {
+	margin-left: 5px;
+}
+.attendee-name:hover {
+	cursor: pointer;
+	text-decoration:none;
+}
+.attendee-timeago {
+	font-size: .7em;
+	margin-left: 5px;
+}
+.attendee-attending {
+	color: #69c773;
+	margin-right: 10px;
+}
+.attendee-not-attending {
+	color: red;
+	margin-right: 10px;
+}
+.attendee-pending {
+	color: magenta;
+	margin-right: 10px;
+}
+.attendee-reason {
+	margin-left: 20px;
+}
+.delete-event-invitation {
+	margin-left: 10px;
+	color: #e33;
+}
+.delete-event-invitation:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.attendee-image {
+	height: 50px;
+	border-radius: 5px;
+}
+/* friends */
+.friend-name {
+	margin-left: 4px;
+}
+.friend-name:hover {
+	cursor:pointer;
+	text-decoration:none;
+}
+
+/* styles for results in searchUser box */
+.search-user-name {
+}
+.search-user-name:hover {
+	text-decoration:none;
+	cursor:pointer;
+}
+.user-invitee-btn:hover {
+	cursor:pointer;
+	color:#888;
+}
+
+/* styles for userProfileModal */
+.profile-image {
+	width: auto;
+	max-width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.bike-image {
+	width:auto;
+	height:120px;
+	margin-right:15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.profile-label {
+	margin-right: 10px;
+	font-weight: bold;
+}
+.profile-text {
+	color: #666;
+}

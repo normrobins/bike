@@ -1,0 +1,109 @@
+/* friends */
+.friend-name {
+	font-weight:bold;
+}
+.friend-name:hover {
+	cursor:pointer;
+	text-decoration:none;
+}
+.unfriend-link {
+	font-size: .7em;
+	margin-left: 20px;
+	color:#888;
+}
+.unfriend-link:hover {
+	cursor: pointer;
+	text-decoration:none;
+}
+
+/* friend-requests */
+.resend-request-link {
+	font-size: .7em;
+	margin-left: 20px;
+}
+.resend-request-link:hover {
+	cursor: pointer;
+}
+.cancel-friend-request {
+	font-size: .7em;
+	margin-left: 20px;
+}
+.cancel-friend-request:hover {
+	cursor: pointer;
+}
+
+.friend-request-row, .pending-friend-row {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: dotted 1px #eee;
+}
+.friend-request-name {
+	font-weight: bold;
+}
+.friend-request-timeago, .pending-friend-timeago {
+	font-size: .8em;
+	margin-left: 10px;
+}
+.friend-request-message, .pending-friend-message {
+}
+.cancel-pending-friend {
+	font-size: .9em;
+}
+.cancel-pending-friend:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.accept-friend-request {
+	font-size: .9em;
+}
+.accept-friend-request:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.ignore-friend-request {
+	margin-left: 10px;
+	font-size: .9em;
+}
+.ignore-friend-request:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.scrolling-user-list {
+	overflow: scroll;
+	height: 150px;
+	border: solid 1px #e4e4e4;
+	border-radius: 5px;     
+	padding-left: 10px;             
+}    
+
+/* styles for searchUsers results */
+.search-user-name:hover {
+	text-decoration:none;
+	cursor:pointer;
+}
+.user-invitee-btn:hover {
+	cursor:pointer;
+	color:#888;
+}
+/* styles for userProfileModal */
+.profile-image {
+	width: auto;
+	max-width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.bike-image {
+	width:auto;
+	height:120px;
+	margin-right:15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.profile-label {
+	margin-right: 10px;
+	font-weight: bold;
+}
+.profile-text {
+	color: #666;
+}
