@@ -20,9 +20,9 @@ define ('USER_LNG_SEARCH_RANGE', 1);
 
 function dbLogin() {
 	$servername = "localhost";
-	$username = "bike";
-	$password = "bike";
-	$db = "bike";
+	$username = "";
+	$password = "";
+	$db = "";
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $db);
